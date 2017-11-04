@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["flowtype"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+  "rules": {
+    "arrow-body-style": 0,
+    "arrow-parens": [1, "always"],
+    "comma-dangle": [1, "only-multiline"],
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": [2, { "ignore": ["atom"] }],
+    "import/extensions": [2, { "atom": "never" }],
+    "jsx-quotes": [1, "prefer-single"],
+    "no-mixed-operators": ["warn", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}],
+    "no-param-reassign": 0,
+    "no-plusplus": 0,
+    "no-trailing-spaces": [1, { "skipBlankLines": true }],
+    "no-unused-vars": 1,
+    "one-var": ["warn", { "initialized": "never" }],
+    "one-var-declaration-per-line": ["warn", "initializations"],
+    "padded-blocks": 1,
+    "prefer-template": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-unused-prop-types": 1,
+    "react/prefer-stateless-function": 1,
+    "react/prop-types": 1,
+    "react/sort-comp": [1, { "order": ["type-annotations"]}],
+    "semi": 1,
+    "spaced-comment": 0,
+  },
+  "settings": {
+    "import/ignore": "atom"
+  },
+  "globals": {
+    "atom": false
+  }
+}
