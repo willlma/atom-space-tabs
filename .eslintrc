@@ -17,6 +17,7 @@
     "import/prefer-default-export": 0,
     "import/no-unresolved": [2, { "ignore": ["atom"] }],
     "import/extensions": [2, { "atom": "never" }],
+    "jsx-a11y/no-static-element-interactions": 0,
     "jsx-quotes": [1, "prefer-single"],
     "no-mixed-operators": ["warn", {"groups": [["&", "|", "^", "~", "<<", ">>", ">>>"], ["&&", "||"]]}],
     "no-param-reassign": 0,
